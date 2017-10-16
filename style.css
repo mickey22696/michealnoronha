@@ -1,0 +1,125 @@
+body {
+    margin:0 0 0 0;
+}
+
+#main-nav li {
+    float:right;
+    padding-right:50px;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+#main-nav ul {
+    margin:0 0 0 0;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color:burlywood
+}
+
+.header h4 {
+    margin:0 0 0 0;
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+}
+
+#header-image a {
+    text-decoration: none;
+    text-align: center;
+    line-height:500px;    
+}
+    
+
+.header {
+     z-index: 10;
+     padding:0 0 0 0;
+     position: fixed;
+     background: rgba(255, 255, 255, 0.7);
+     top: 0;
+     left: 0;
+     right:0;
+}
+
+
+#content-head{
+    height:500px;
+    background-color: cadetblue;
+}
+
+  
+
+#col1 {
+    text-align: center;
+    background-color: burlywood;
+    height:300px;
+}
+#col2 {
+    text-align: center;
+    background-color: burlywood;
+    height:300px;
+}
+#col3 {
+    text-align: center;
+    background-color: burlywood;
+    height:300px;
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+.group:after {
+	clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+
+/*  GRID OF THREE  */
+.span_3_of_3 {
+	width: 100%;
+}
+.span_2_of_3 {
+	width: 66.1%;
+}
+.span_1_of_3 {
+	width: 32.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { margin: 1% 0 1% 0%;}
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+
+.gap{
+    height:300px;
+}
+
+.footer{
+    background-color: cornflowerblue;
+}
+.footer p{
+    text-align: center;
+    margin:0 0 0 0;
+}
